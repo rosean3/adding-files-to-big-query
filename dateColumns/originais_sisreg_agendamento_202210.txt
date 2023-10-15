@@ -1,0 +1,16 @@
+Column: data_aut
+  Data type: datetime64[ns]
+  Format: yyyy-mm-dd hh:mm:ss | Example: 2022-09-27 00:00:00
+
+Column: data_exe
+  Data type: datetime64[ns]
+  Format: yyyy-mm-dd hh:mm:ss | Example: 2022-10-03 00:00:00
+
+Column: data_nasc
+  Data type: datetime64[ns]
+  Format: yyyy-mm-dd hh:mm:ss | Example: 1951-12-15 00:00:00
+
+Column: data_sol
+  Data type: datetime64[ns]
+  Format: yyyy-mm-dd hh:mm:ss | Example: 2022-09-27 00:00:00
+

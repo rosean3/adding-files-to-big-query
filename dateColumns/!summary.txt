@@ -1,0 +1,43 @@
+existing formats:  ['yyyy-mm-dd hh:mm:ss', 'dd.mm.yyyy', 'mm.dd.yyyy', 'yyyy-mm-dd']
+existing types:  [dtype('<M8[ns]'), dtype('O')]
+
+
+
+number of files to read from:  30
+reading from:  originais_sisreg_agendamento_202112.xlsx
+reading from:  originais_sisreg_agendamento_202109(18.10.21).xlsx
+file xlsxFiles/originais_sisreg_agendamento_202109(18.10.21).xlsx has a date type that is not datetime64[ns]: object in column data_nasc
+reading from:  originais_sisreg_agendamento_202201.xlsx
+reading from:  originais_sisreg_agendamento_202103.xlsx
+reading from:  originais_sisreg_agendamento_202212.xlsx
+reading from:  originais_sisreg_agendamento_202202.xlsx
+reading from:  originais_sisreg_agendamento_202206.xlsx
+reading from:  originais_sisreg_agendamento_202203.xlsx
+reading from:  originais_sisreg_agendamento_202301.xlsx
+reading from:  originais_sisreg_agendamento_202107.xlsx
+file xlsxFiles/originais_sisreg_agendamento_202107.xlsx has a date type that is not datetime64[ns]: object in column data_aut
+file xlsxFiles/originais_sisreg_agendamento_202107.xlsx has a date type that is not datetime64[ns]: object in column data_nasc
+reading from:  originais_sisreg_agendamento_202108.xlsx
+reading from:  originais_sisreg_agendamento_202302.xlsx
+reading from:  originais_sisreg_agendamento_202207.xlsx
+reading from:  originais_sisreg_agendamento_202306.xlsx
+file xlsxFiles/originais_sisreg_agendamento_202306.xlsx has a date type that is not datetime64[ns]: object in column data_nasc
+reading from:  originais_sisreg_agendamento_202106.xlsx
+reading from:  originais_sisreg_agendamento_202105.xlsx
+reading from:  originais_sisreg_agendamento_202303.xlsx
+reading from:  originais_sisreg_agendamento_202111.xlsx
+reading from:  originais_sisreg_agendamento_202210.xlsx
+reading from:  originais_sisreg_agendamento_202110 (1).xlsx
+reading from:  originais_sisreg_agendamento_202101.xlsx
+reading from:  originais_sisreg_agendamento_202304.xlsx
+reading from:  originais_sisreg_agendamento_202205.xlsx
+reading from:  originais_sisreg_agendamento_202209.xlsx
+reading from:  originais_sisreg_agendamento_202208.xlsx
+reading from:  originais_sisreg_agendamento_202104.xlsx
+/home/rosa/Downloads/repo/myenv/lib/python3.11/site-packages/openpyxl/worksheet/_reader.py:329: UserWarning: Conditional Formatting extension is not supported and will be removed
+  warn(msg)
+file xlsxFiles/originais_sisreg_agendamento_202104.xlsx has a date type that is not datetime64[ns]: object in column data_nasc
+reading from:  originais_sisreg_agendamento_202305.xlsx
+reading from:  originais_sisreg_agendamento_202204.xlsx
+reading from:  originais_sisreg_agendamento_202211.xlsx
+reading from:  originais_sisreg_agendamento_202102.xlsx

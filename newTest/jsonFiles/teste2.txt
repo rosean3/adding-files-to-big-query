@@ -1,0 +1,13 @@
+Column: data_aut
+  Data type: datetime64[ns]
+  Format: yyyy-mm-dd hh:mm:ss | Example: 2020-12-19 00:00:00
+
+Column: data_exe
+  Data type: object
+  Format: Not recognized | Example: 00:00:00
+  Format: yyyy-mm-dd hh:mm:ss | Example: 1977-11-23 00:00:00
+
+Column: data_sol
+  Data type: datetime64[ns]
+  Format: yyyy-mm-dd hh:mm:ss | Example: 2020-12-15 00:00:00
+

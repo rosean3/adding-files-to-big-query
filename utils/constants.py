@@ -1,0 +1,1 @@
+DATE_COLUMNS = ['data_aut', 'data_exe', 'data_nasc', 'data_sol']
