@@ -14,9 +14,9 @@ credentials = service_account.Credentials.from_service_account_file(
 
 client = bigquery.Client(credentials=credentials, project=credentials.project_id,)
 
-directory_to_read = "finalJsonFiles"
+directory_to_read = "xlsxFiles"
 
-files_to_read = get_files_to_read(directory_to_read, ".jsonl")
+files_to_read = get_files_to_read(directory_to_read, "xlsx")
 files_to_read.sort()
 
 results = []
