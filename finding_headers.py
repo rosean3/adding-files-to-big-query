@@ -6,7 +6,7 @@ from utils.basic_functions import *
 headers = []
 keeping_track = {}
 
-directory_to_read = "jsonFiles"
+directory_to_read = "finalJsonFiles"
 
 files_to_read = get_files_to_read(directory_to_read, ".jsonl")
 
@@ -31,7 +31,7 @@ for filename in files_to_read:
 
 
 headers.sort()
-# print("headers: ", headers)
-# print("headers length: ", len(headers))
+print("headers: ", headers)
+print("headers length: ", len(headers))
 # print("keeping_track: ", keeping_track)
 

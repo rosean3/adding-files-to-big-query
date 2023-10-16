@@ -52,6 +52,11 @@ if not os.path.exists(directory_to_write_in):
 
 chunk_size = 5  # Adjust this as needed. It defines how many files are merged into one output file.
 
+chunked = list(chunked_files(files_to_read, chunk_size))
+
+for index, chunk in enumerate(chunked, 1):
+    print(f"Chunk {index}:", chunk)
+
 for idx, file_chunk in enumerate(chunked_files(files_to_read, chunk_size), start=1):
     output_filename = os.path.join(directory_to_write_in, f'merged{idx}.jsonl')
     
