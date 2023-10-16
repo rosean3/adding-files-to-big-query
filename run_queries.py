@@ -34,13 +34,13 @@ for i in range(1, 4):
 
         for row in query_job:
             result = row["result"]
-            print(f"result of query 202{i}-{j}: {result}")
+            # print(f"result of query 202{i}-{j}: {result}")
 
         results.append(result)
 
 dictionary = {filename: result for filename, result in zip(files_to_read, results)}
 
-print("dictionary: ", dictionary)
+# print("dictionary: ", dictionary)
 
 if dictionary == NUMBER_OF_LINES:
     print("They are equal")
