@@ -17,4 +17,6 @@ print("number of files to read from: ", len(files_to_read))
 for filename in files_to_read:
     number_of_lines[filename] = count_lines_xlsx(os.path.join(directory_to_read_from, filename))
 
+number_of_lines = dict(sorted(number_of_lines.items()))
+
 print('number of lines in each file: ', number_of_lines)
